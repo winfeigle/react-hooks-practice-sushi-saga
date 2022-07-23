@@ -8,7 +8,7 @@ function Sushi({sushi, onEatSushi}) {
     if (!eaten) {
       onEatSushi(sushi);
     } else {
-      alert("Can't eat an empty plate, bud");
+      alert("The plate is empty");
     }
   }
 
